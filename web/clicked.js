@@ -5,5 +5,5 @@ function clicked() {
 function changeColor() {
 	var textbox = document.getElementById("divbackground");
 
-	document.getElementById("div1").style.background-color = textbox.value;
+	document.getElementById("div1").style.backgroundColor = textbox.value;
 }
