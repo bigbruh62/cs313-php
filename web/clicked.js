@@ -1,9 +1,9 @@
-function clicked() {
-	alert("Clicked!");
-}
+$(document).ready(function(){
+	$('#btnChangeColor').click(function(){
+		$('#div1').css("background-color", $('#divbackground').value)
+	})
 
-function changeColor() {
-	var textbox = document.getElementById("divbackground");
-
-	document.getElementById("div1").style.backgroundColor = textbox.value;
-}
+	$("#btnClickMe").click(function(){
+		alert("Clicked!");
+	})
+});
