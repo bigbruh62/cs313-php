@@ -16,22 +16,16 @@
 			<p>A landing page for CS 313</p>
 		</div>
 
-		<nav class="navbar navbar-expand-smbg-dark navbar-dark">
+		<nav class="navbar">
 			<a class="navbar-home" href="#">Home</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     			<span class="navbar-toggler-icon"></span>
   			</button>
-  			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+  			<div class="navbar-home" id="collapsibleNavbar">
 	    		<ul class="navbar-nav">
-	      			<li class="nav-item">
-	        			<a class="nav-link" href="#">Link</a>
+	      			<li class="nav-link">
+	        			<a id="assignmentLink" href="#">Assignments</a>
 	      			</li>
-	      			<li class="nav-item">
-	        			<a class="nav-link" href="#">Link</a>
-	      			</li>
-	      			<li class="nav-item">
-	        		<a class="nav-link" href="#">Link</a>
-	      			</li>    
 	    		</ul>
   			</div>
 
