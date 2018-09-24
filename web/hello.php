@@ -18,9 +18,12 @@
 
 		<nav class="navbar navbar-expand-smbg-dark navbar-dark">
 			<a class="navbar-home" href="#">Home</a>
-			<a class="navbar-link" href="assignments.html">Assignments</a>
+			<div>
+				<a class="navbar-link" href="assignments.html">Assignments</a>				
+			</div>
+
 		</nav>
 
-		
+
 	</body>
 </html>
