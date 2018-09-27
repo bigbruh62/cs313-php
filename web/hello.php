@@ -4,7 +4,7 @@
 	include("header.php");
 ?>
 
-<div class="container" style="margin-top:30px">
+<div class="container">
   <div class="row">
     <div class="col-sm-8">
       <h2>

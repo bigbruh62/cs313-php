@@ -34,7 +34,7 @@
 
 <body>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
+<div class="jumbotron text-center">
   <h1>
     Hello World!
   </h1>

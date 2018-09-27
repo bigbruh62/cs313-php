@@ -4,7 +4,7 @@
 	include("header.php");
 ?>
 
-	<div>
+	<div class="container">
 		<ul>
 			<li>
 				<a href="hello.php">
