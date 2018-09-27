@@ -23,7 +23,7 @@
   $(function(){
     var pageURL = $(location).attr("href");
             alert(pageURL);
-    if ($(location).attr("href").contains("hello.php")){
+    if ($(location).attr("href").includes("hello.php")){
       $("#landing").show();
     } else {
       $("#landing").hide();
