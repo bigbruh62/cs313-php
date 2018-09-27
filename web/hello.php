@@ -26,6 +26,15 @@
 	      			<li class="nav-link">
 	        			<a id="assignmentLink" href="#">Assignments</a>
 	      			</li>
+	      			<li class="nav-link">
+	        			<a id="assignmentLink" href="#">Assignments</a>
+	      			</li>
+	      			<li class="nav-link">
+	        			<a id="assignmentLink" href="#">Assignments</a>
+	      			</li>
+	      			<li class="nav-link">
+	        			<a id="assignmentLink" href="#">Assignments</a>
+	      			</li>
 	    		</ul>
   			</div>
 
