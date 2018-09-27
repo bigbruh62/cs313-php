@@ -19,13 +19,21 @@
   		setInterval(updateTime, 1000);
 	});
 </script>
+<script type="text/javascript">
+    if ($(location).attr("href").contains("hello.php")){
+      $("#landing").show();
+    }
+    else{
+      $("#landing").hide();
+    }
+  </script>
 </head>
 
 <body>
 
 <div class="jumbotron text-center" style="margin-bottom:0">
   <h1>Hello World!</h1>
-  <p>A landing page for CS 313</p> 
+  <p id="landing">A landing page for CS 313</p> 
   <p id="time"></p>
 </div>
 
