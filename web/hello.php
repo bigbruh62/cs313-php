@@ -18,6 +18,7 @@
 <div class="jumbotron text-center" style="margin-bottom:0">
   <h1>Hello World!</h1>
   <p>A landing page for CS 313</p> 
+  <p><?php echo date('Y/m/d H:i:s');?></p>
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -39,11 +40,12 @@
     <div class="col-sm-8">
       <h2>TITLE HEADING</h2>
       <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
+      <div class="img">Fake Image</div>
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
     </div>
   </div>
 </div>
+
 </body>
 </html>
