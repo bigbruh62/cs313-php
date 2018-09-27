@@ -26,12 +26,18 @@
 	      			<li class="nav-link">
 	        			<a id="assignmentLink" href="#">Assignments</a>
 	      			</li>
+	    		</ul>
+	    		<ul class="navbar-nav">
 	      			<li class="nav-link">
 	        			<a id="assignmentLink" href="#">Assignments</a>
 	      			</li>
+	    		</ul>
+	    		<ul class="navbar-nav">
 	      			<li class="nav-link">
 	        			<a id="assignmentLink" href="#">Assignments</a>
 	      			</li>
+	    		</ul>
+	    		<ul class="navbar-nav">
 	      			<li class="nav-link">
 	        			<a id="assignmentLink" href="#">Assignments</a>
 	      			</li>
