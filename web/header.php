@@ -20,12 +20,13 @@
 	});
 </script>
 <script type="text/javascript">
-  $(function()
+  $(function(){
     if ($(location).attr("href").contains("hello.php")){
       $("#landing").show();
     } else {
       $("#landing").hide();
-    });
+    }
+  });
   </script>
 </head>
 
