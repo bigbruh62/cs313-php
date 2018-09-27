@@ -11,6 +11,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+	var timestamp = '<?=time();?>';
+	function updateTime(){
+  		$('#time').html(Date(timestamp));
+  		timestamp++;
+	}
+	$(function(){
+  		setInterval(updateTime, 1000);
+	});
+</script>
 </head>
 
 <body>
@@ -18,7 +28,7 @@
 <div class="jumbotron text-center" style="margin-bottom:0">
   <h1>Hello World!</h1>
   <p>A landing page for CS 313</p> 
-  <p><?php echo date('Y/m/d H:i:s');?></p>
+  <p id="time"></p>
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
