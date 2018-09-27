@@ -21,8 +21,8 @@
 </script>
 <script type="text/javascript">
   $(function(){
-    var pageURL = $(location).attr("href");
-            alert(pageURL);
+    //var pageURL = $(location).attr("href");
+    //        alert(pageURL);
     if ($(location).attr("href").includes("hello.php")){
       $("#landing").show();
     } else {
