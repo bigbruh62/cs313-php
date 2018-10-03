@@ -16,7 +16,7 @@
 	<? include("shop_header.php"); ?>
 	<div class="container"> Products
 		<div class="row"> row
-			<div class="col-sm-8" style="overflow: auto; max-height: 100vh;">
+			<div class="col" style="overflow: auto; max-height: 100vh;">
 				<table>
 					<tr>
 						<td colspan="2" rowspan="2">
