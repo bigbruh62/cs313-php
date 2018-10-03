@@ -14,12 +14,12 @@
 
 <body>
 	<? include("shop_header.php"); ?>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-8">
+	<div class="container"> container
+		<div class="row"> row
+			<div class="col-sm-8"> small column 8
 			</div>
 		</div>
 	</div>
-	
+
 </body>
 </html>
