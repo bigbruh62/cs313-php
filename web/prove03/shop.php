@@ -20,7 +20,7 @@
 				<table>
 					<tr>
 						<td>
-							<img src=".\image-not-found.png">
+							<img src=".\image-not-found.png" height="42" width="42">
 							</br>
 							Product 1 Name
 							<button id="product1">
