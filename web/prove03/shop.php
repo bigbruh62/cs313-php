@@ -17,9 +17,24 @@
 	<div class="container"> Products
 		<div class="row"> row
 			<div class="products" style="overflow: auto; max-height: 100vh;">
-				<div class="product-id display-none">
-					Product
-				</div> 
+				<table>
+					<tr>
+						<th>Product 1</th>
+						<th>Product 2</th>
+						<th>Product 3</th>
+						<th>Product 4</th>
+						<th>Product 5</th>
+						<th>Product 6</th>
+					</tr>
+					<tr>
+						<td>Product 1 info</td>
+						<td>Product 2 info</td>
+						<td>Product 3 info</td>
+						<td>Product 4 info</td>
+						<td>Product 5 info</td>
+						<td>Product 6 info</td>
+					</tr>
+				</table> 
 			</div>
 		</div>
 	</div>
