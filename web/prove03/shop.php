@@ -43,6 +43,8 @@
 								Add to cart
 							</button>
 						</td>
+					</tr>
+					<tr>
 						<td>
 							<img src=".\image-not-found.png" height="126" width="126">
 							</br>
