@@ -27,12 +27,54 @@
 						<th>Product 6</th>
 					</tr>
 					<tr>
-						<td>Product 1 info</td>
-						<td>Product 2 info</td>
-						<td>Product 3 info</td>
-						<td>Product 4 info</td>
-						<td>Product 5 info</td>
-						<td>Product 6 info</td>
+						<td>
+							<img src="">
+							</br>
+							Product 1 Name
+							<button>
+								Add to cart
+							</button>
+						</td>
+						<td>
+							<img src="">
+							</br>
+							Product 2 Name
+							<button>
+								Add to cart
+							</button>
+						</td>
+						<td>
+							<img src="">
+							</br>
+							Product 3 Name
+							<button>
+								Add to cart
+							</button>
+						</td>
+						<td>
+							<img src="">
+							</br>
+							Product 4 Name
+							<button>
+								Add to cart
+							</button>
+						</td>
+						<td>
+							<img src="">
+							</br>
+							Product 5 Name
+							<button>
+								Add to cart
+							</button>
+						</td>
+						<td>
+							<img src="">
+							</br>
+							Product 6 Name
+							<button>
+								Add to cart
+							</button>
+						</td>
 					</tr>
 				</table> 
 			</div>
