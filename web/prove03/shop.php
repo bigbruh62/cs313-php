@@ -19,19 +19,11 @@
 			<div class="col-sm-8" style="overflow: auto; max-height: 100vh;">
 				<table>
 					<tr>
-						<th>Product 1</th>
-						<th>Product 2</th>
-						<th>Product 3</th>
-						<th>Product 4</th>
-						<th>Product 5</th>
-						<th>Product 6</th>
-					</tr>
-					<tr>
 						<td>
-							<img src="">
+							<img src="D\Documents\cs313\image-not-found.png">
 							</br>
 							Product 1 Name
-							<button>
+							<button id="product1">
 								Add to cart
 							</button>
 						</td>
@@ -39,7 +31,7 @@
 							<img src="">
 							</br>
 							Product 2 Name
-							<button>
+							<button id="product2">
 								Add to cart
 							</button>
 						</td>
@@ -47,7 +39,7 @@
 							<img src="">
 							</br>
 							Product 3 Name
-							<button>
+							<button id="product3">
 								Add to cart
 							</button>
 						</td>
@@ -55,7 +47,7 @@
 							<img src="">
 							</br>
 							Product 4 Name
-							<button>
+							<button id="product4">
 								Add to cart
 							</button>
 						</td>
@@ -63,7 +55,7 @@
 							<img src="">
 							</br>
 							Product 5 Name
-							<button>
+							<button id="product5">
 								Add to cart
 							</button>
 						</td>
@@ -71,7 +63,7 @@
 							<img src="">
 							</br>
 							Product 6 Name
-							<button>
+							<button id="product6">
 								Add to cart
 							</button>
 						</td>
