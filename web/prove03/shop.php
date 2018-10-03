@@ -19,7 +19,7 @@
 			<div class="col-sm-8" style="overflow: auto; max-height: 100vh;">
 				<table>
 					<tr>
-						<td>
+						<td colspan="2">
 							<img src=".\image-not-found.png" height="126" width="126">
 							</br>
 							Product 1 Name
