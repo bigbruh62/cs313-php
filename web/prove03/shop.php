@@ -27,7 +27,7 @@
 								Add to cart
 							</button>
 						</td>
-						<td>
+						<td colspan="2" rowspan="2">
 							<img src=".\image-not-found.png" height="126" width="126">
 							</br>
 							Product 2 Name
@@ -35,7 +35,7 @@
 								Add to cart
 							</button>
 						</td>
-						<td>
+						<td colspan="2" rowspan="2">
 							<img src=".\image-not-found.png" height="126" width="126">
 							</br>
 							Product 3 Name
@@ -45,7 +45,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td colspan="2" rowspan="2">
 							<img src=".\image-not-found.png" height="126" width="126">
 							</br>
 							Product 4 Name
@@ -53,7 +53,7 @@
 								Add to cart
 							</button>
 						</td>
-						<td>
+						<td colspan="2" rowspan="2">
 							<img src=".\image-not-found.png" height="126" width="126">
 							</br>
 							Product 5 Name
@@ -61,7 +61,7 @@
 								Add to cart
 							</button>
 						</td>
-						<td>
+						<td colspan="2" rowspan="2">
 							<img src=".\image-not-found.png" height="126" width="126">
 							</br>
 							Product 6 Name
