@@ -14,9 +14,12 @@
 
 <body>
 	<? include("shop_header.php"); ?>
-	<div class="container"> container
+	<div class="container"> Products
 		<div class="row"> row
-			<div class="col-sm-8"> small column 8
+			<div class="products" style="overflow: auto; max-height: 100vh;">
+				<div class="product-id display-none">
+					Product
+				</div> 
 			</div>
 		</div>
 	</div>
