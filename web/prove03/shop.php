@@ -28,7 +28,7 @@
 							</button>
 						</td>
 						<td>
-							<img src="">
+							<img src=".\image-not-found.png" height="126" width="126">
 							</br>
 							Product 2 Name
 							<button id="product2">
@@ -36,7 +36,7 @@
 							</button>
 						</td>
 						<td>
-							<img src="">
+							<img src=".\image-not-found.png" height="126" width="126">
 							</br>
 							Product 3 Name
 							<button id="product3">
@@ -44,7 +44,7 @@
 							</button>
 						</td>
 						<td>
-							<img src="">
+							<img src=".\image-not-found.png" height="126" width="126">
 							</br>
 							Product 4 Name
 							<button id="product4">
@@ -52,7 +52,7 @@
 							</button>
 						</td>
 						<td>
-							<img src="">
+							<img src=".\image-not-found.png" height="126" width="126">
 							</br>
 							Product 5 Name
 							<button id="product5">
@@ -60,7 +60,7 @@
 							</button>
 						</td>
 						<td>
-							<img src="">
+							<img src=".\image-not-found.png" height="126" width="126">
 							</br>
 							Product 6 Name
 							<button id="product6">
