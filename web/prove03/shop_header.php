@@ -5,6 +5,7 @@
   <p id="landing">
     We carry the best in computers and components
   </p> 
+  <p></p>
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">

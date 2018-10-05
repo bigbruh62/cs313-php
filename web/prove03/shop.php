@@ -20,22 +20,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<script type="text/javascript">
-		$(function(){
-			$('#toCart').click(function(){
-				window.location.href='.\\cart.php'
-			});
-
-			$('#checkout').click(function(){
-				window.location.href='.\\checkout.php';
-			});
-		});
-	</script>
 </head>
 
 <body>
 	<? include("shop_header.php"); ?>
-
 	<div>
 		<button id="product1" class="product" value="product 1">Add Product 1 to Cart</button>
 		<button id="product2" class="product" value="product 2">Add Product 2 to Cart</button>
