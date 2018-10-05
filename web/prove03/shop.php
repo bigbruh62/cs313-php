@@ -23,9 +23,9 @@
 	<script type="text/javascript">
 		$(function(){
 			$('#toCart').click(function(){
-				window.location.href='/prove03/cart.php'
-			})
-		}
+				window.location.href='.\\prove03.\\cart.php'
+			});
+		});
 	</script>
 </head>
 
