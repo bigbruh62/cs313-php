@@ -15,10 +15,14 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <button id="toCart">Shopping Cart</button>
+        <a href=".\cart.php">
+        	Cart
+        </a>
       </li> 
       <li>
-      	<button id="checkout">Checkout</button>
+      	<a href=".\checkout.php">
+      		Checkout
+      	</a>
       </li>
     </ul>
   </div>  
