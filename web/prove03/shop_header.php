@@ -15,12 +15,12 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a href=".\cart.php">
+        <a class="navbar-brand" href=".\cart.php">
         	Cart
         </a>
       </li> 
       <li>
-      	<a href=".\checkout.php">
+      	<a class="navbar-brand" href=".\checkout.php">
       		Checkout
       	</a>
       </li>

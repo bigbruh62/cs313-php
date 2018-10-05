@@ -42,10 +42,6 @@
 		<button id="product3" class="product" value="product 3">Add Product 3 to Cart</button>
 		<button id="product4" class="product" value="product 4">Add Product 4 to Cart</button>
 	</div>
-	<div>
-		<button id="toCart">Shopping Cart</button>
-		<button id="checkout">Checkout</button>
-	</div>
 
 </body>
 </html>
