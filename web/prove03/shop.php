@@ -25,6 +25,10 @@
 			$('#toCart').click(function(){
 				window.location.href='.\\cart.php'
 			});
+
+			$('#checkout').click(function(){
+				window.location.href='.\\checkout.php';
+			});
 		});
 	</script>
 </head>
