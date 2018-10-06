@@ -32,7 +32,7 @@
 <body>
 	<? include("shop_header.php"); ?>
 	<? include("shopNavbar.php"); ?>
-	<div class="panel">
+	<div class="container-fluid">
 		<figure>
 			<img class="img-circle" src="image-not-found.png" alt="Image not found">
 			<figcaption>
