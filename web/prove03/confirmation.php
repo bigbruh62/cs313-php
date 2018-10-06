@@ -15,5 +15,14 @@
 	<h1>Confirmation Page</h1>
 </br>
 	<a href="shop.php">Home</a>
+
+<?
+// remove all session variables
+session_unset(); 
+
+// destroy the session 
+session_destroy(); 
+?>
+
 </body>
 </html>
