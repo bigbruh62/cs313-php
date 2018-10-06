@@ -20,7 +20,7 @@
 		<h1>Please review your cart before checking out:</h1>
 		<?php
 		  echo '<ul>';
-		  foreach ($_SESSION['cart'] as $item => $quantity) {
+		  foreach ($_SESSION['quantity'] as $item => $quantity) {
 		    if ($quantity > 0) {
 		      echo '<li class="item">' .
 		           $item .
