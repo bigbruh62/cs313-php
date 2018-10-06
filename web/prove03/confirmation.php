@@ -5,5 +5,7 @@
 </head>
 <body>
 	<h1>Confirmation Page</h1>
+</br>
+	<a href="shop.php">Home</a>
 </body>
 </html>
