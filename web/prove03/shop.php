@@ -32,9 +32,9 @@
 <body>
 	<? include("shop_header.php"); ?>
 	<? include("shopNavbar.php"); ?>
-	<div class="container-fluid">
+	<div class="panel">
 		<figure>
-			<img src="image-not-found.png" alt="Image not found">
+			<img class="img-circle" src="image-not-found.png" alt="Image not found">
 			<figcaption>
 				Product 1
 			</figcaption>
@@ -46,7 +46,7 @@
 	</div>
 	<div class="container-fluid">
 		<figure>
-			<img src="image-not-found.png" alt="Image not found">
+			<img class="img-circle" src="image-not-found.png" alt="Image not found">
 			<figcaption>
 				Product 2
 			</figcaption>
@@ -58,7 +58,7 @@
 	</div>
 	<div class="container-fluid">
 		<figure>
-			<img src="image-not-found.png" alt="Image not found">
+			<img class="img-circle" src="image-not-found.png" alt="Image not found">
 			<figcaption>
 				Product 3
 			</figcaption>
@@ -70,7 +70,7 @@
 	</div>
 	<div class="container-fluid">
 		<figure>
-			<img src="image-not-found.png" alt="Image not found">
+			<img class="img-circle" src="image-not-found.png" alt="Image not found">
 			<figcaption>
 				Product 4
 			</figcaption>
@@ -82,7 +82,7 @@
 	</div>
 	<div class="container-fluid">
 		<figure>
-			<img src="image-not-found.png" alt="Image not found">
+			<img class="img-circle" src="image-not-found.png" alt="Image not found">
 			<figcaption>
 				Product 5
 			</figcaption>
@@ -94,7 +94,7 @@
 	</div>
 	<div class="container-fluid">
 		<figure>
-			<img src="image-not-found.png" alt="Image not found">
+			<img class="img-circle" src="image-not-found.png" alt="Image not found">
 			<figcaption>
 				Product 6
 			</figcaption>
