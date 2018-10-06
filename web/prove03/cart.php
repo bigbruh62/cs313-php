@@ -14,6 +14,7 @@
 </head>
 <body>
 	<? include("shop_header.php"); ?>
+	<? include("shopNavbar.php"); ?>
 	<div>
 		<h1>Here's what's in your shopping cart:</h1>
 		<?php

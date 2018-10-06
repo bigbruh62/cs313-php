@@ -15,6 +15,7 @@
 
 <body>
 	<? include("shop_header.php"); ?>
+	<? include("shopNavbar.php"); ?>
 	<h1>Please review your cart before checking out:</h1>
 	<?php
 	  echo '<ul>';
