@@ -11,6 +11,11 @@
 					Assignment 1
 				</a>
 			</li>
+			<li>
+				<a href="\prove03\shop.php">
+					Prove 03: Shopping cart
+				</a>
+			</li>
 		</ul>
 	</div>
 </body>
