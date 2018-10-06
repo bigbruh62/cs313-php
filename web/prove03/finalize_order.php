@@ -10,18 +10,12 @@
   foreach ($_SESSION['quantity'] as $key => $value)
     if($value > 0)
       $_SESSION['order'][$key]=$value;
-    $_SESSION['quantity'] = [
-        'MY1' => 0,
-        'MY2' => 0,
-        'LA1' => 0,
-        'LA2' => 0,
-        'AR1' => 0,
-        'AR2' => 0,
-        'OB1' => 0,
-        'OB2' => 0,
-        'VA1' => 0,
-        'VA2' => 0,
-        'SU1' => 0,
-        'SU2' => 0,
+    $_SESSION['cart'] = [
+        'p1' => 0,
+        'p2' => 0,
+        'p3' => 0,
+        'p4' => 0,
+        'p5' => 0,
+        'p6' => 0,
     ];
   header('Location: thankyou.php');

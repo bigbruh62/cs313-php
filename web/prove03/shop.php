@@ -4,7 +4,14 @@
 	$cartArray = array();
 
 	if(!isset($_SESSION['cart'])){
-		$_SESSION['cart'] = $cartArray;		
+		$_SESSION['cart'] = [
+			'p1' => 0,
+			'p2' => 0,
+			'p3' => 0,
+			'p4' => 0,
+			'p5' => 0,
+			'p6' => 0,
+		];		
 	}
 ?>
 
@@ -25,11 +32,40 @@
 <body>
 	<? include("shop_header.php"); ?>
 	<div>
-		<button id="product1" class="product" value="product 1">Add Product 1 to Cart</button>
-		<button id="product2" class="product" value="product 2">Add Product 2 to Cart</button>
-		<button id="product3" class="product" value="product 3">Add Product 3 to Cart</button>
-		<button id="product4" class="product" value="product 4">Add Product 4 to Cart</button>
+		<form action="add.php" method="POST">
+			<input class="button" type="submit" title="Add product to cart" value="Add product to cart">
+			<input type="hidden" name="item" value="p1">
+		</form>
 	</div>
-
+	<div>
+		<form action="add.php" method="POST">
+			<input class="button" type="submit" title="Add product to cart" value="Add product to cart">
+			<input type="hidden" name="item" value="p2">
+		</form>
+	</div>
+	<div>
+		<form action="add.php" method="POST">
+			<input class="button" type="submit" title="Add product to cart" value="Add product to cart">
+			<input type="hidden" name="item" value="p3">
+		</form>
+	</div>
+	<div>
+		<form action="add.php" method="POST">
+			<input class="button" type="submit" title="Add product to cart" value="Add product to cart">
+			<input type="hidden" name="item" value="p4">
+		</form>
+	</div>
+	<div>
+		<form action="add.php" method="POST">
+			<input class="button" type="submit" title="Add product to cart" value="Add product to cart">
+			<input type="hidden" name="item" value="p5">
+		</form>
+	</div>
+	<div>
+		<form action="add.php" method="POST">
+			<input class="button" type="submit" title="Add product to cart" value="Add product to cart">
+			<input type="hidden" name="item" value="p6">
+		</form>
+	</div>
 </body>
 </html>

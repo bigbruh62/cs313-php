@@ -1,3 +1,4 @@
+<? session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,6 +14,25 @@
 </head>
 <body>
 	<? include("shop_header.php"); ?>
-	<h1>Welcome to the cart</h1>
+	<div>
+		<h1>Here's what's in your shopping cart:</h1>
+		<?php
+		  echo '<ul>';
+		  foreach ($_SESSION['quantity'] as $item => $quantity) {
+		    if ($quantity > 0) {
+		      echo '<li class="item">' .
+		           $item .
+		           ': ' .
+		           $quantity .
+		           "<form action='remove.php' method='post'>
+		              <input class='button' type='submit' title='Remove Item' value='Remove item from cart'>
+		              <input type='hidden' name='item' value=". $item .'>
+		            </form >
+		            </li > ';
+		    }
+		  }
+		  echo '</ul > ';
+		?>
+	</div>
 </body>
 </html>
