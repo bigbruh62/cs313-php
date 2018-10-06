@@ -18,4 +18,4 @@
         'p5' => 0,
         'p6' => 0,
     ];
-  header('Location: thankyou.php');
+  header('Location: confirmation.php');
