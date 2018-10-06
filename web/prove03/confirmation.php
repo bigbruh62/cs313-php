@@ -14,32 +14,37 @@
 
 <body>
 	<? include("shop_header.php"); ?>
-	<h1>Order Confirmation</h1>
-	<h2>Shipping Information:</h2>
-	<?php
-	  session_start();
-	  echo $_SESSION['name']."<br>";
-	  echo $_SESSION['add1']."<br>";
-	  if ($_SESSION['add2'] !== "")
-	    echo $_SESSION['add2']."<br>";
-	  if ($_SESSION['add3'] !== "")
-	    echo $_SESSION['add3']."<br>";
-	  echo $_SESSION['city'].", ".$_SESSION['state'].' '.$_SESSION['zip'];
-	?>
-	<h2>Order Information</h2>
-	<table>
-	  <tr>
-	    <td>Item</td>
-	    <td>Quantity</td>
-	  </tr>
-	<?php
-	  foreach ($_SESSION['order'] as $item => $quantity)
-	    echo '<tr><td>'.$item.'</td><td>'.$quantity.'</td></tr>';
-	?>
-	</table>
+	<div class="container-fluid">
+		<h1>Order Confirmation</h1>
+		<h2>Shipping Information:</h2>
+		<?php
+		  session_start();
+		  echo $_SESSION['name']."<br>";
+		  echo $_SESSION['add1']."<br>";
+		  if ($_SESSION['add2'] !== "")
+		    echo $_SESSION['add2']."<br>";
+		  if ($_SESSION['add3'] !== "")
+		    echo $_SESSION['add3']."<br>";
+		  echo $_SESSION['city'].", ".$_SESSION['state'].' '.$_SESSION['zip'];
+		?>
+		<h2>Order Information</h2>
+		<table>
+		  <tr>
+		    <td>Item</td>
+		    <td>Quantity</td>
+		  </tr>
+		<?php
+		  foreach ($_SESSION['order'] as $item => $quantity)
+		    echo '<tr><td>'.$item.'</td><td>'.$quantity.'</td></tr>';
+		?>
+		</table>	
+	</div>
 	
-	<h1>Thank you for shopping with us!</h1>
-	<a href="shop.php">Return to Shop</a>
+	<div class="container-fluid">
+		<h1>Thank you for shopping with us!</h1>
+		<a href="shop.php">Return to Shop</a>	
+	</div>	
+	
 	
 	<?
 	// remove all session variables
