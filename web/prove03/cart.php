@@ -19,7 +19,7 @@
 		<h1>Here's what's in your shopping cart:</h1>
 		<?php
 		  echo '<ul>';
-		  foreach ($_SESSION['quantity'] as $item => $quantity) {
+		  foreach ($_SESSION['cart'] as $item => $quantity) {
 		    if ($quantity > 0) {
 		      echo '<li class="item">' .
 		           $item .

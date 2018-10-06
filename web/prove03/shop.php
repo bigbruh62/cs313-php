@@ -33,36 +33,72 @@
 	<? include("shop_header.php"); ?>
 	<? include("shopNavbar.php"); ?>
 	<div class="container-fluid">
+		<figure>
+			<img src="image-not-found.png" alt="Image not found">
+			<figcaption>
+				Product 1
+			</figcaption>
+		</figure>
 		<form action="add.php" method="POST">
 			<input class="button" type="submit" title="Add product to cart" value="Add product to cart">
 			<input type="hidden" name="item" value="p1">
 		</form>
 	</div>
 	<div class="container-fluid">
+		<figure>
+			<img src="image-not-found.png" alt="Image not found">
+			<figcaption>
+				Product 2
+			</figcaption>
+		</figure>
 		<form action="add.php" method="POST">
 			<input class="button" type="submit" title="Add product to cart" value="Add product to cart">
 			<input type="hidden" name="item" value="p2">
 		</form>
 	</div>
 	<div class="container-fluid">
+		<figure>
+			<img src="image-not-found.png" alt="Image not found">
+			<figcaption>
+				Product 3
+			</figcaption>
+		</figure>
 		<form action="add.php" method="POST">
 			<input class="button" type="submit" title="Add product to cart" value="Add product to cart">
 			<input type="hidden" name="item" value="p3">
 		</form>
 	</div>
 	<div class="container-fluid">
+		<figure>
+			<img src="image-not-found.png" alt="Image not found">
+			<figcaption>
+				Product 4
+			</figcaption>
+		</figure>
 		<form action="add.php" method="POST">
 			<input class="button" type="submit" title="Add product to cart" value="Add product to cart">
 			<input type="hidden" name="item" value="p4">
 		</form>
 	</div>
 	<div class="container-fluid">
+		<figure>
+			<img src="image-not-found.png" alt="Image not found">
+			<figcaption>
+				Product 5
+			</figcaption>
+		</figure>
 		<form action="add.php" method="POST">
 			<input class="button" type="submit" title="Add product to cart" value="Add product to cart">
 			<input type="hidden" name="item" value="p5">
 		</form>
 	</div>
 	<div class="container-fluid">
+		<figure>
+			<img src="image-not-found.png" alt="Image not found">
+			<figcaption>
+				Product 6
+			</figcaption>
+		</figure>
 		<form action="add.php" method="POST">
 			<input class="button" type="submit" title="Add product to cart" value="Add product to cart">
 			<input type="hidden" name="item" value="p6">
