@@ -13,10 +13,9 @@
 </head>
 
 <body>
-	<h1>Order Confirmation</h1>
-</br>
 	<? include("shop_header.php"); ?>
-	<h2>Shipping Information</h2>
+	<h1>Order Confirmation</h1>
+	<h2>Shipping Information:</h2>
 	<?php
 	  session_start();
 	  echo $_SESSION['name']."<br>";
@@ -40,7 +39,7 @@
 	</table>
 	
 	<h1>Thank you for shopping with us!</h1>
-	<a href="http://<?php echo $_SERVER['HTTP_HOST']?>">Return to Shop</a>
+	<a href="shop.php">Return to Shop</a>
 	
 	<?
 	// remove all session variables

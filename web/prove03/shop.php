@@ -30,8 +30,8 @@
 </head>
 
 <body>
-	<? include_once("shop_header.php"); ?>
-	<? include_once("shopNavbar.php"); ?>
+	<? include("shop_header.php"); ?>
+	<? include("shopNavbar.php"); ?>
 	<div>
 		<form action="add.php" method="POST">
 			<input class="button" type="submit" title="Add product to cart" value="Add product to cart">
