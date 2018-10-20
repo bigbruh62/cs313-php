@@ -8,7 +8,7 @@
   //$qry = $db -> prepare('SELECT id, username FROM users WHERE username=user1 AND pswdhash = pass');
   //$qry -> execute(['user' => $user, 'pswd' => $pswd]);
   //$results = $qry -> fetchAll(PDO::FETCH_ASSOC);
-  $results = $db->query('SELECT id, username FROM users WHERE username=user1 AND pswdhash=pass');
+  $results = $db->query('SELECT id, username FROM users');
 
   if ($results) {
     alert("inside the results if statement");
