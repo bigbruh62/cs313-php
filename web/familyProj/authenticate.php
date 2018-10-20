@@ -38,9 +38,9 @@
   if ($stmnt) {
     printf("inside the results if statement");
     session_start();
-    $_SESSION['user'] = $stmnt[0]['id'];
+    $_SESSION['user'] = $stmnt[0];
     $_SESSION['auth'] = TRUE;
-    $_SESSION['family_id'] = $stmnt[2]['family_id'];
+    $_SESSION['family_id'] = $stmnt[2];
     header('Location: home.php');
   }
 ?>
