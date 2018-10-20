@@ -6,12 +6,12 @@
 <body>
 	<?
 		session_start();
-		//printf('User:');
-		//print_r($_SESSION['user']);
-		//printf('Authorization:');
-		//print_r($_SESSION['auth']);
-		//printf('Family ID:');
-		//print_r($_SESSION['family_id']);
+		printf('User:');
+		print_r($_SESSION['user']);
+		printf('Authorization:');
+		print_r($_SESSION['auth']);
+		printf('Family ID:');
+		print_r($_SESSION['family_id']);
 		try
 	    {
 	      $dbUrl = getenv('DATABASE_URL');
