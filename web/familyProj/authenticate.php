@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <?php
-  session_start();
-
   require '..\dbCredentials.php'
 
   $user = $_POST['username'];
@@ -10,6 +8,7 @@
   $statement->execute(arra(':user' => $user, ':pswdhash' => $pswd));
   $results = $statement -> fetchAll(PDO::FETCH_ASSOC);
   if ($results) {
+    alert("inside the results if statement");
     session_start();
     $_SESSION['user'] = $results[0]['id'];
     $_SESSION['auth'] = TRUE;
