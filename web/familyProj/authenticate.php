@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-  require '../dbCredentials.php'
+  include("..\dbConnect.php");
 
   $user = $_POST['username'];
   $pswd = $_POST['password'];
