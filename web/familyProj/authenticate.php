@@ -3,7 +3,7 @@
   include("..\dbConnect.php");
 
   $user = $_POST['username'];
-  //$pswd = $_POST['password'];
+  $pswd = $_POST['password'];
   
   //$qry = $db -> prepare("SELECT users.id, users.username FROM users WHERE username=:user AND pswdhash = :pswd");
   //$qry -> execute([':user' => $user, ':pswd' => $pswd]);
