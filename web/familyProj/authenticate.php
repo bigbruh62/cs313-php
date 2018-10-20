@@ -1,16 +1,6 @@
 <!DOCTYPE html>
-
-<html>
-<head>
-  <meta charset="utf-8"/>
-  <title>authentication</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-<div class="container">
-  In the body
-  <?php
-  require '..\dbCredentials.php'
+<?php
+  require '../dbCredentials.php'
 
   $user = $_POST['username'];
   $pswd = $_POST['password'];
@@ -27,6 +17,15 @@
     header('Location: home.php');
   }
 ?>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>authentication</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+  In the body
   <div>
     <?php
       echo '<p>Username or password incorrect.</p>';
