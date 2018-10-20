@@ -30,7 +30,7 @@
   $stmnt = $stmnt->fetch(PDO::FETCH_ASSOC);
   print_r($stmnt);
 
-  print_r($stmnt[2]);
+  print_r($stmnt['family_id']);
 
   if ($stmnt) {
     printf("inside the results if statement");
