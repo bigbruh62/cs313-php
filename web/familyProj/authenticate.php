@@ -2,9 +2,11 @@
 <?php
   //include("..\dbCredentials.php");
 
-  //$user = $_POST['username'];
-  //$pswd = $_POST['password'];
+  $user = $_POST['username'];
+  $pswd = $_POST['password'];
   
+  print_r($user);
+  print_r($pswd);
   //$qry = $db -> prepare('SELECT id, username FROM users WHERE username=user1 AND pswdhash = pass');
   //$qry -> execute(['user' => $user, 'pswd' => $pswd]);
   //$results = $qry -> fetchAll(PDO::FETCH_ASSOC);
@@ -32,8 +34,8 @@
     die();
   }
 
-  $user = 'user1';
-  $pswd = 'pass';
+  //$user = 'user1';
+  //$pswd = 'pass';
 
   $stmnt = $db->prepare("SELECT id, username FROM users WHERE username = ? AND pswdhash = ?");
   $stmnt->execute([$user, $pswd]);
@@ -41,7 +43,7 @@
 
 
   if ($stmnt) {
-    alert("inside the results if statement");
+    printf("inside the results if statement");
     session_start();
     $_SESSION['user'] = $results[0]['id'];
     $_SESSION['auth'] = TRUE;
