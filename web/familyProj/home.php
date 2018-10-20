@@ -8,6 +8,8 @@
 <p>
 	<?
 		session_start();
+		print_r($_SESSION['user']);
+		print_r($_SESSION['auth']);
 		print_r($_SESSION['family_id']);
 	?>
 </p>
