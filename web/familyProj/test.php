@@ -1,5 +1,4 @@
 <?php
-  session_start();
 
   try
   {
@@ -23,15 +22,6 @@
     die();
   }
 
-  $user = $_POST['username'];
-  $pswd = $_POST['password'];
-  $statement = $db->prepare("SELECT * FROM users WHERE username=:user AND pswdhash=:pswd");
-  $statement->execute(arra(':user' => $user, ':pswdhash' => $pswd));
-  $results = $statement -> fetchAll(PDO::FETCH_ASSOC);
-  if ($results) {
-    session_start();
-    $_SESSION['user'] = $results[0]['id'];
-    $_SESSION['auth'] = TRUE;
-    header('Location: home.php');
-  }
+  $stmnt = $db->query("SELECT * FROM users");
+  print_r($stmnt);
 ?>
