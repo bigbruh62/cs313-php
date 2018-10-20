@@ -12,7 +12,7 @@
 		print_r($_SESSION['auth']);
 		printf('Family ID:');
 		print_r($_SESSION['family_id']);
-		try
+		/*try
 	    {
 	      $dbUrl = getenv('DATABASE_URL');
 
@@ -32,19 +32,19 @@
 	    {
 	      echo 'Error!: ' . $ex->getMessage();
 	      die();
-	    }
+	    }*/
 	?>
 <h1>Home.php</h1>
 <div class="container">
 	<div class="container">
-		<?php
+		<?php/*
 			$stmnt = $db->prepare('SELECT * FROM family WHERE family_id = ?');
 			$stmnt->execute(["$_SESSION['family_id']"]);
 
 			foreach ($stmnt as $row)
 			{
 				echo $row['first_name'] . "\n";
-			}
+			}*/
 		?>
 	</div>
 </div>
