@@ -5,7 +5,7 @@
   $user = $_POST['username'];
   $pswd = $_POST['password'];
   
-  $qry = $db -> prepare('SELECT id, username FROM users WHERE username=:user AND pswdhash = :pswd');
+  $qry = $db -> prepare('SELECT * FROM users WHERE username=:user AND pswdhash = :pswd');
   //$qry -> execute([':user' => $user, ':pswd' => $pswd]);
   //$results = $qry -> fetchAll(PDO::FETCH_ASSOC);
 
