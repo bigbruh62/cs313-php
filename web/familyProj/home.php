@@ -37,14 +37,14 @@
 <h1>Home.php</h1>
 <div class="container">
 	<div class="container">
-		<?php/*
+		<?php
 			$stmnt = $db->prepare('SELECT * FROM family WHERE family_id = ?');
-			$stmnt->execute(["$_SESSION['family_id']"]);
+			$stmnt->execute([$_SESSION['family_id']]);
 
 			foreach ($stmnt as $row)
 			{
 				echo $row['first_name'] . "\n";
-			}*/
+			}
 		?>
 	</div>
 </div>
