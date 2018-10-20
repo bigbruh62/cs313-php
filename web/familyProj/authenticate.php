@@ -6,8 +6,8 @@
   $pswd = $_POST['password'];
   
   $qry = $db -> prepare('SELECT * FROM users WHERE username=:user AND pswdhash = :pswd');
-  //$qry -> execute([':user' => $user, ':pswd' => $pswd]);
-  //$results = $qry -> fetchAll(PDO::FETCH_ASSOC);
+  $qry -> execute(['user' => $user, 'pswd' => $pswd]);
+  $results = $qry -> fetchAll(PDO::FETCH_ASSOC);
 
   //if ($results) {
     //alert("inside the results if statement");
