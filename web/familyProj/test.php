@@ -29,4 +29,12 @@
   $stmnt->execute([$user, $pswd]);
   $stmnt = $stmnt->fetch(PDO::FETCH_ASSOC);
   print_r($stmnt);
+
+  if ($stmnt) {
+    alert("inside the results if statement");
+    session_start();
+    $_SESSION['user'] = $results[0]['id'];
+    $_SESSION['auth'] = TRUE;
+    header('Location: home.php');
+  }
 ?>
