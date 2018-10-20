@@ -22,7 +22,11 @@
     die();
   }
 
-  $stmnt = $db->query("SELECT * FROM users");
+  $user = 'user1';
+  $pswd = 'pass';
+
+  $stmnt = $db->prepare("SELECT id, username FROM users WHERE username = ? AND pswdhash = ?");
+  $stmnt->execute([$user, $pswd]);
   $stmnt = $stmnt->fetch(PDO::FETCH_ASSOC);
   print_r($stmnt);
 ?>
