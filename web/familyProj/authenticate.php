@@ -11,6 +11,7 @@
 </head>
 <body>
 <div class="container">
+  In the body
   <?php
   require '..\dbCredentials.php'
 
