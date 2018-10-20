@@ -30,7 +30,7 @@
   $stmnt = $stmnt->fetch(PDO::FETCH_ASSOC);
   print_r($stmnt);
 
-  if (!$stmnt) {
+  if ($stmnt) {
     printf("inside the results if statement");
     session_start();
     $_SESSION['user'] = $results[0]['id'];
