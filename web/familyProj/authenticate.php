@@ -7,10 +7,6 @@
   
   print_r($user);
   print_r($pswd);
-  //$qry = $db -> prepare('SELECT id, username FROM users WHERE username=user1 AND pswdhash = pass');
-  //$qry -> execute(['user' => $user, 'pswd' => $pswd]);
-  //$results = $qry -> fetchAll(PDO::FETCH_ASSOC);
-  //$results = $db->query('SELECT id, username FROM users');
 
     try
   {
@@ -34,10 +30,7 @@
     die();
   }
 
-  //$user = 'user1';
-  //$pswd = 'pass';
-
-  $stmnt = $db->prepare("SELECT id, username FROM users WHERE username = ? AND pswdhash = ?");
+  $stmnt = $db->prepare("SELECT id, username, family_id FROM users WHERE username = ? AND pswdhash = ?");
   $stmnt->execute([$user, $pswd]);
   $stmnt = $stmnt->fetch(PDO::FETCH_ASSOC);
 
@@ -45,8 +38,9 @@
   if ($stmnt) {
     printf("inside the results if statement");
     session_start();
-    $_SESSION['user'] = $results[0]['id'];
+    $_SESSION['user'] = $stmnt[0]['id'];
     $_SESSION['auth'] = TRUE;
+    $_SESSION['family_id'] = $stmnt[0]['family_id'];
     header('Location: home.php');
   }
 ?>
@@ -58,7 +52,6 @@
 </head>
 <body>
 <div class="container">
-  In the body
   <div>
     <?php
       echo '<p>Username or password incorrect.</p>';
