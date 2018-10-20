@@ -4,9 +4,11 @@
 
   $user = $_POST['username'];
   $pswd = $_POST['password'];
-  $statement = $db->prepare("SELECT * FROM users WHERE username=:user AND pswdhash=:pswd");
-  $statement->execute(arra(':user' => $user, ':pswdhash' => $pswd));
-  $results = $statement -> fetchAll(PDO::FETCH_ASSOC);
+  
+  $qry = $db -> prepare('SELECT users.id, users.username FROM users WHERE username=:user AND pswdhash = :pswd');
+  $qry -> execute([':user' => $user, ':pswd' => $pswd]);
+  $results = $qry -> fetchAll(PDO::FETCH_ASSOC);
+
   if ($results) {
     alert("inside the results if statement");
     session_start();
