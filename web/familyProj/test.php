@@ -23,5 +23,6 @@
   }
 
   $stmnt = $db->query("SELECT * FROM users");
+  $stmnt = $stmnt->fetch(PDO::FETCH_ASSOC);
   print_r($stmnt);
 ?>
