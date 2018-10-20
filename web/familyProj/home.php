@@ -12,7 +12,7 @@
 		print_r($_SESSION['auth']);
 		printf('Family ID:');
 		print_r($_SESSION['family_id']);
-		/*try
+		try
 	    {
 	      $dbUrl = getenv('DATABASE_URL');
 
@@ -32,7 +32,7 @@
 	    {
 	      echo 'Error!: ' . $ex->getMessage();
 	      die();
-	    }*/
+	    }
 	?>
 <h1>Home.php</h1>
 <div class="container">
