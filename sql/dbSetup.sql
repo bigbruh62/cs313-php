@@ -15,3 +15,9 @@ CREATE TABLE users (
 	family_id   arch_family,
 	pid         integer REFERENCES family(pid)
 	);
+
+INSERT INTO users (username, hashword, family_id)
+	VALUES ('user1', crypt('pass', gen_salt('bf')), 'Palmer');
+
+INSERT INTO users (username, hashword, family_id)
+	VALUES ('user2', crypt('pass2', gen_salt('bf')), 'Jackson');
