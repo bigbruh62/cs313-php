@@ -40,7 +40,7 @@
     session_start();
     $_SESSION['user'] = $stmnt[0]['id'];
     $_SESSION['auth'] = TRUE;
-    $_SESSION['family_id'] = $stmnt[0]['family_id'];
+    $_SESSION['family_id'] = $stmnt[2]['family_id'];
     header('Location: home.php');
   }
 ?>
