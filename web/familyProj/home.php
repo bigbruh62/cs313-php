@@ -40,12 +40,22 @@
 		<?php
 			$stmnt = $db->prepare('SELECT * FROM family WHERE family_id = ?');
 			$stmnt->execute([$_SESSION['family_id']]);
-
-			foreach ($stmnt as $row)
-			{
-				echo $row['first_name'] . "\n";
-			}
 		?>
+
+		<table>
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Birthday</th>
+			</tr>
+		<? foreach ($stmnt as $row): ?>
+			<tr>
+				<td><? echo $row['first_name'] ?></td>
+				<td><? echo $row['last_name'] ?></td>
+				<td><? echo $row['birthday'] ?></td>
+			</tr>	
+		</table>
+		<? endforeach; ?>
 	</div>
 </div>
 </body>
