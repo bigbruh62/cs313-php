@@ -53,9 +53,9 @@
 				<td><? echo $row['first_name'] ?></td>
 				<td><? echo $row['last_name'] ?></td>
 				<td><? echo $row['birthday'] ?></td>
-			</tr>	
+			</tr>
+		<? endforeach; ?>	
 		</table>
-		<? endforeach; ?>
 	</div>
 </div>
 </body>
