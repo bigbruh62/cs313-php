@@ -59,7 +59,7 @@
 			$stmnt->execute([$_SESSION['family_id']]);
 		?>
 
-		<table class="table-bordered table-responsive">
+		<table class="table-bordered">
 			<tr>
 				<th>First Name</th>
 				<th>Last Name</th>
