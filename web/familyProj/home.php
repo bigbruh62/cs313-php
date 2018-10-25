@@ -80,7 +80,7 @@
 			</tr>
 		<? endforeach; ?>	
 		</table>
-		<input type="button" name="add" class="btn-large btn-success">
+		<input type="button" name="add" class="btn-large btn-success" value="Add Family Member>
 	</div>
 	<div class="col-3"></div>
 </div>
