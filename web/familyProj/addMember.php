@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<? session_start(); ?>
 <html>
 <head>
 	<title>Add Member</title>
@@ -25,21 +26,21 @@
 			<form class="panel bg-dark text-white" action="add.php" method="post">
 				<div data-validate="First name is required!">
 					<h2>First Name</h2>
-					<input type="text" name="first">
+					<input type="text" name="first" id="first">
 				</div>
 			</br>
 				<div data-validate="Last name is required!">
 					<h2>Last Name</h2>
-					<input type="text" name="last">
+					<input type="text" name="last" id="last">
 				</div>
 			</br>
 				<div data-validate="Birthday is required!">
 					<h2>Birthday</h2>
-					<input type="text" name="date">
+					<input type="text" name="date" id="date">
 				</div>
 			</br>
 				<div>
-					<input class="btn" type="submit" value="Add Member">
+					<input class="btn btn-success" type="submit" value="Add Member">
 				</div>	
 			</form>
 		</dir>
