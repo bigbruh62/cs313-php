@@ -16,7 +16,7 @@
 	<div class="row">
 		<div class="col-3"></div>
 		<dir class="col-6">
-			Add a family member
+			<h1>Add a family member</h1>
 		</dir>
 		<div class="col-3"></div>
 	</div>
@@ -24,9 +24,21 @@
 		<div class="col-3"></div>
 		<dir class="col-6">
 			<form class="panel" action="add.php" method="post">
-				<input type="text" name="first">
-				<input type="text" name="last">
-				<input type="text" name="date">	
+				<span>
+					<h2>First Name</h2>
+					</br>
+					<input type="text" name="first">
+				</span>
+				<span>
+					<h2>Last Name</h2>
+					</br>
+					<input type="text" name="last">
+				</span>
+				<span>
+					<h2>Birthday</h2>
+					</br>
+					<input type="text" name="date">
+				</span>	
 			</form>
 		</dir>
 		<div class="col-3"></div>
