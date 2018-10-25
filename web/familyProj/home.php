@@ -43,15 +43,21 @@
 	      die();
 	    }
 	?>
-<h1>
-	<?
-		if ($_SESSION['family_id'] == 'Palmer') {
-			echo "Palmer Family";
-		} else {
-			echo "Jackson Family";
-		};
-	?>
-</h1>
+<div class="row">
+	<div class="col-3"></div>
+	<div class="col-6">
+		<h1>
+			<?
+			if ($_SESSION['family_id'] == 'Palmer') {
+				echo "Palmer Family";
+			} else {
+				echo "Jackson Family";
+			};
+			?>
+		</h1>	
+	</div>
+	<div class="col-3"></div>
+</div>
 <div class="container">
 	<div class="container">
 		<?php
