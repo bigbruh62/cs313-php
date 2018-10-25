@@ -23,20 +23,20 @@
 		<div class="col-3"></div>
 		<dir class="col-6">
 			<form class="panel bg-dark text-white" action="add.php" method="post">
-				<span>
+				<div data-validate="First name is required!">
 					<h2>First Name</h2>
 					<input type="text" name="first">
-				</span>
+				</div>>
 			</br>
-				<span>
+				<div data-validate="Last name is required!">
 					<h2>Last Name</h2>
 					<input type="text" name="last">
-				</span>
+				</div>>
 			</br>
-				<span>
+				<div data-validate="Birthday is required!">
 					<h2>Birthday</h2>
 					<input type="text" name="date">
-				</span>	
+				</div>>	
 			</form>
 		</dir>
 		<div class="col-3"></div>
