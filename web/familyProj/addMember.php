@@ -22,7 +22,7 @@
 	<div class="row">
 		<div class="col-3"></div>
 		<dir class="col-6">
-			<form class="panel" action="add.php" method="post">
+			<form class="panel bg-dark text-white" action="add.php" method="post">
 				<span>
 					<h2>First Name</h2>
 					<input type="text" name="first">
