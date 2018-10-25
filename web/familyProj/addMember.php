@@ -36,6 +36,10 @@
 				<div data-validate="Birthday is required!">
 					<h2>Birthday</h2>
 					<input type="text" name="date">
+				</div>
+			</br>
+				<div>
+					<input class="btn" type="submit" value="Add Member">
 				</div>	
 			</form>
 		</dir>
