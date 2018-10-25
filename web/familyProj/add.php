@@ -1,6 +1,10 @@
 <?
 	session_start();
 
+	$first = $_POST['first'];
+	$last = $_POST['last'];
+	$birthday = $_POST['date'];
+
 	try
 	{
 		$dbUrl = getenv('DATABASE_URL');
@@ -22,5 +26,8 @@
 		die();
 	}
 
-	
+	$stmnt = $db->prepare("INSERT INTO family (first_name, last_name, birthday, family_id) VALUES (?, ?, ?, ?)");
+	$stmnt->execute([$first, $last, $birthday, $_SESSION['family_id']]);
+
+	header('Location: home.php');
 ?>

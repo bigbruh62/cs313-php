@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <?php
-  //include("..\dbCredentials.php");
 
   $user = $_POST['username'];
   $pswd = $_POST['password'];
-  
-  print_r($user);
-  print_r($pswd);
 
     try
     {
