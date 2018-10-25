@@ -26,17 +26,17 @@
 				<div data-validate="First name is required!">
 					<h2>First Name</h2>
 					<input type="text" name="first">
-				</div>>
+				</div>
 			</br>
 				<div data-validate="Last name is required!">
 					<h2>Last Name</h2>
 					<input type="text" name="last">
-				</div>>
+				</div>
 			</br>
 				<div data-validate="Birthday is required!">
 					<h2>Birthday</h2>
 					<input type="text" name="date">
-				</div>>	
+				</div>	
 			</form>
 		</dir>
 		<div class="col-3"></div>
