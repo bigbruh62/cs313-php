@@ -80,7 +80,13 @@
 			</tr>
 		<? endforeach; ?>	
 		</table>
-		<input type="button" name="add" class="btn-large btn-success" value="Add Family Member>
+	</div>
+	<div class="col-3"></div>
+</div>
+<div>
+	<div class="col-3"></div>
+	<div class="col-6">
+		<a href="addMember.php" class="btn-large btn-success" role="button">Add Family Member</a>
 	</div>
 	<div class="col-3"></div>
 </div>
