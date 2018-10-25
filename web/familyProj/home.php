@@ -67,13 +67,13 @@
 		?>
 
 		<table class="table-bordered">
-			<tr class="bg-dark">
+			<tr class="bg-dark text-light">
 				<th>First Name</th>
 				<th>Last Name</th>
 				<th>Birthday</th>
 			</tr>
 		<? foreach ($stmnt as $row): ?>
-			<tr class="info">
+			<tr class="bg-info">
 				<td><? echo $row['first_name'] ?></td>
 				<td><? echo $row['last_name'] ?></td>
 				<td><? echo $row['birthday'] ?></td>
