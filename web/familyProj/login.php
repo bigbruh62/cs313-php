@@ -41,7 +41,7 @@
 					</div>
 
 					<div class="container">
-						<input type="submit" value="Login">
+						<input class="btn" type="submit" value="Login">
 					</div>
 
 				</form>
