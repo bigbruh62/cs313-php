@@ -86,7 +86,7 @@
 <div class="row">
 	<div class="col-3"></div>
 	<div class="col-6">
-		<a href="addMember.php" class="btn-large btn-success" role="button">Add Family Member</a>
+		<a href="addMember.php" class="btn btn-large btn-success" role="button">Add Family Member</a>
 	</div>
 	<div class="col-3"></div>
 </div>
