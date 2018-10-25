@@ -58,8 +58,9 @@
 	</div>
 	<div class="col-3"></div>
 </div>
-<div class="container">
-	<div class="container">
+<div class="row">
+	<div class="col-3"></div>
+	<div class="col-6">
 		<?php
 			$stmnt = $db->prepare('SELECT * FROM family WHERE family_id = ?');
 			$stmnt->execute([$_SESSION['family_id']]);
@@ -80,6 +81,7 @@
 		<? endforeach; ?>	
 		</table>
 	</div>
+	<div class="col-3"></div>
 </div>
 </body>
 </html>
