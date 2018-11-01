@@ -15,7 +15,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body class="bg-light">
 	<div class="row header">
 		<div class="col-3"></div>
 		<div class="col-6"></div>
@@ -25,7 +25,7 @@
 		<div class="row align-items-center">
 			<div class="col-3"></div>
 			<div class="col-6">
-				<form class="container" action="authenticate.php" method="post">
+				<form class="container bg-dark text-white" action="authenticate.php" method="post">
 						<span class="container">
 							<h1>
 								Account Login
