@@ -27,7 +27,9 @@
 			<div class="col-6">
 				<form class="container" action="authenticate.php" method="post">
 						<span class="container">
-							Account Login
+							<h1>
+								Account Login
+							</h1>
 						</span>
 						</br>
 						<span class="container">
