@@ -44,52 +44,55 @@
 	      die();
 	    }
 	?>
-<div class="row">
-	<div class="col-3"></div>
-	<div class="col-6">
-		<h1>
-			<?
-			if ($_SESSION['family_id'] == 'Palmer') {
-				echo "Palmer Family";
-			} else {
-				echo "Jackson Family";
-			};
-			?>
-		</h1>	
-	</div>
-	<div class="col-3"></div>
-</div>
-<div class="row">
-	<div class="col-3"></div>
-	<div class="col-6">
-		<?php
-			$stmnt = $db->prepare('SELECT * FROM family WHERE family_id = ?');
-			$stmnt->execute([$_SESSION['family_id']]);
-		?>
 
-		<table class="table-bordered">
-			<tr class="bg-dark text-light">
-				<th>First Name</th>
-				<th>Last Name</th>
-				<th>Birthday</th>
-			</tr>
-		<? foreach ($stmnt as $row): ?>
-			<tr class="bg-info">
-				<td><? echo $row['first_name'] ?></td>
-				<td><? echo $row['last_name'] ?></td>
-				<td><? echo $row['birthday'] ?></td>
-			</tr>
-		<? endforeach; ?>	
-		</table>
+<div class="container">
+	<div class="row">
+		<div class="col-3"></div>
+		<div class="col-6">
+			<h1>
+				<?
+				if ($_SESSION['family_id'] == 'Palmer') {
+					echo "Palmer Family";
+				} else {
+					echo "Jackson Family";
+				};
+				?>
+			</h1>	
+		</div>
+		<div class="col-3"></div>
 	</div>
-	<div class="col-3"></div>
-</div>
-<div class="row">
-	<div class="col-3"></div>
-	<div class="col-6">
-		<a href="addMember.php" class="btn btn-large btn-success" role="button">Add Family Member</a>
+	<div class="row">
+		<div class="col-3"></div>
+		<div class="col-6">
+			<?php
+				$stmnt = $db->prepare('SELECT * FROM family WHERE family_id = ?');
+				$stmnt->execute([$_SESSION['family_id']]);
+			?>
+
+			<table class="table-bordered">
+				<tr class="bg-dark text-light">
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Birthday</th>
+				</tr>
+			<? foreach ($stmnt as $row): ?>
+				<tr class="bg-info">
+					<td><? echo $row['first_name'] ?></td>
+					<td><? echo $row['last_name'] ?></td>
+					<td><? echo $row['birthday'] ?></td>
+				</tr>
+			<? endforeach; ?>	
+			</table>
+		</div>
+		<div class="col-3"></div>
 	</div>
-	<div class="col-3"></div>
+	<div class="row">
+		<div class="col-3"></div>
+		<div class="col-6">
+			<a href="addMember.php" class="btn btn-large btn-success" role="button">Add Family Member</a>
+		</div>
+		<div class="col-3"></div>
+	</div>
 </div>
 </body>
 </html>
