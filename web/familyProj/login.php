@@ -15,7 +15,7 @@
 </head>
 
 <body>
-	<div class="row">
+	<div class="row header">
 		<div class="col-3"></div>
 		<div class="col-6"></div>
 		<div class="col-3"></div>
@@ -23,7 +23,7 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-3"></div>
-			<div class="col-6 align-self-center">
+			<div class="col-6">
 				<form class="container" action="authenticate.php" method="post">
 						<span class="container">
 							Account Login
