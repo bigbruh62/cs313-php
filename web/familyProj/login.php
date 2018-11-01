@@ -26,6 +26,7 @@
 			<div class="col-3"></div>
 			<div class="col-6">
 				<form class="container bg-dark text-white" action="authenticate.php" method="post">
+					<div class="container">
 						<span class="container">
 							<h1>
 								Account Login
@@ -52,7 +53,8 @@
 						<div class="container">
 							<input class="btn" type="submit" value="Login">
 						</div>
-					</form>
+					</div>
+				</form>
 			</div>
 			<div class="col-3"></div>
 		</div>

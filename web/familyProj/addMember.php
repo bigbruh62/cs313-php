@@ -25,26 +25,28 @@
 		<div class="col-3"></div>
 		<dir class="col-6">
 			<form class="panel bg-dark text-white" action="add.php" method="post">
-				<div data-validate="First name is required!">
-					<span>First Name</span>
+				<div class="container">
+					<div data-validate="First name is required!">
+						<span>First Name</span>
+					</br>
+						<input type="text" name="first" id="first">
+					</div>
 				</br>
-					<input type="text" name="first" id="first">
-				</div>
-			</br>
-				<div data-validate="Last name is required!">
-					<span>Last Name</span>
+					<div data-validate="Last name is required!">
+						<span>Last Name</span>
+					</br>
+						<input type="text" name="last" id="last">
+					</div>
 				</br>
-					<input type="text" name="last" id="last">
-				</div>
-			</br>
-				<div data-validate="Birthday is required!">
-					<span>Birthday</span>
+					<div data-validate="Birthday is required!">
+						<span>Birthday</span>
+					</br>
+						<input type="text" name="date" id="date">
+					</div>
 				</br>
-					<input type="text" name="date" id="date">
-				</div>
-			</br>
-				<div>
-					<input class="btn btn-success" type="submit" value="Add Member">
+					<div>
+						<input class="btn btn-success" type="submit" value="Add Member">
+					</div>
 				</div>	
 			</form>
 		</dir>
