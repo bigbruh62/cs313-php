@@ -9,3 +9,7 @@ form {
 body {
 	background-color: antiquewhite;
 }
+
+.btn {
+	margin-top: 10px;
+}
