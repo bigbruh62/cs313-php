@@ -14,7 +14,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body class="bg-light">
-	<div class="row header">
+	<div class="row">
 		<div class="col-3"></div>
 		<dir class="col-6">
 			<h1>Add a family member</h1>
@@ -26,17 +26,17 @@
 		<dir class="col-6">
 			<form class="panel bg-dark text-white" action="add.php" method="post">
 				<div data-validate="First name is required!">
-					<h2>First Name</h2>
+					<span>First Name</span>
 					<input type="text" name="first" id="first">
 				</div>
 			</br>
 				<div data-validate="Last name is required!">
-					<h2>Last Name</h2>
+					<span>Last Name</span>
 					<input type="text" name="last" id="last">
 				</div>
 			</br>
 				<div data-validate="Birthday is required!">
-					<h2>Birthday</h2>
+					<span>Birthday</span>>
 					<input type="text" name="date" id="date">
 				</div>
 			</br>
