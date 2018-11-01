@@ -27,16 +27,19 @@
 			<form class="panel bg-dark text-white" action="add.php" method="post">
 				<div data-validate="First name is required!">
 					<span>First Name</span>
+				</br>
 					<input type="text" name="first" id="first">
 				</div>
 			</br>
 				<div data-validate="Last name is required!">
 					<span>Last Name</span>
+				</br>
 					<input type="text" name="last" id="last">
 				</div>
 			</br>
 				<div data-validate="Birthday is required!">
-					<span>Birthday</span>>
+					<span>Birthday</span>
+				</br>
 					<input type="text" name="date" id="date">
 				</div>
 			</br>
