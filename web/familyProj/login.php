@@ -20,9 +20,9 @@
 		<div class="col-6"></div>
 		<div class="col-3"></div>
 	</div>
-	<div class="row align-self-center">
+	<div class="row">
 		<div class="col-3"></div>
-		<div class="col-6">
+		<div class="col-6 align-self-center">
 			<form class="container" action="authenticate.php" method="post">
 					<span class="container">
 						Account Login
