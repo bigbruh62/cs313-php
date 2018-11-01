@@ -15,10 +15,15 @@
 </head>
 
 <body>
-	<div class="container">
-		<div class="container">
-			<div class="container">
-				<form class="container" action="authenticate.php" method="post">
+	<div class="row">
+		<div class="col-3"></div>
+		<div class="col-6"></div>
+		<div class="col-3"></div>
+	</div>
+	<div class="row">
+		<div class="col-3"></div>
+		<div class="col-6">
+			<form class="container" action="authenticate.php" method="post">
 					<span class="container">
 						Account Login
 					</span>
@@ -43,10 +48,8 @@
 					<div class="container">
 						<input class="btn" type="submit" value="Login">
 					</div>
-
 				</form>
-			</div>
 		</div>
-	</div>
+		<div class="col-3"></div>
 </body>
 </html>
